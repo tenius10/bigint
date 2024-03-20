@@ -19,11 +19,11 @@ int main(){
     
     // 계산
     bigint bigSum=sum(num1, num2);
-    //bigint bigSub=sub(num1, num2);
+    bigint bigSub=sub(num1, num2);
     
     // 출력
     cout<<"Sum\t\t>> "<<bigSum<<"\n";
-    //cout<<"Sub\t\t>> "<<bigSub;
+    cout<<"Sub\t\t>> "<<bigSub;
 
     return 0;
 }
