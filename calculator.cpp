@@ -115,5 +115,7 @@ bigint sub(bigint a, bigint b){
     }
     result.erase(0, zeroCount);
 
+    if(result.size()==0) result = "0";
+
     return result;
 }
